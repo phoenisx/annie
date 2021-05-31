@@ -20,3 +20,4 @@ require (
 )
 
 replace github.com/rylio/ytdl => github.com/mihaiav/ytdl v0.6.3-0.20200510100116-5f2bf8b4fec0
+replace github.com/awia002/annie => github.com/phoenisx/annie
