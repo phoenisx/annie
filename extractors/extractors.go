@@ -32,7 +32,6 @@ import (
 	"github.com/iawia002/annie/extractors/xvideos"
 	"github.com/iawia002/annie/extractors/yinyuetai"
 	"github.com/iawia002/annie/extractors/youku"
-	"github.com/iawia002/annie/extractors/youtube"
 	"github.com/iawia002/annie/utils"
 )
 
