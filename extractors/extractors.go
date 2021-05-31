@@ -39,7 +39,6 @@ var extractorMap map[string]types.Extractor
 
 func init() {
 	douyinExtractor := douyin.New()
-	youtubeExtractor := youtube.New()
 
 	extractorMap = map[string]types.Extractor{
 		"": universal.New(), // universal extractor
@@ -50,8 +49,6 @@ func init() {
 		"bcy":        bcy.New(),
 		"pixivision": pixivision.New(),
 		"youku":      youku.New(),
-		"youtube":    youtubeExtractor,
-		"youtu":      youtubeExtractor, // youtu.be
 		"iqiyi":      iqiyi.New(),
 		"mgtv":       mgtv.New(),
 		"tangdou":    tangdou.New(),
